@@ -10,6 +10,6 @@ public class OrderDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.order_details);
-
+        getSupportActionBar().hide();
     }
 }
