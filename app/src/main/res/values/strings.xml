@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MAD</string>
+    <string name="tv_addDetails">Add Delivery Details</string>
+    <string name="tv_fName">First Name</string>
+    <string name="tv_sName">Second Name</string>
+    <string name="tv_address1">Address Line 1</string>
+    <string name="tv_address2">Address Line 2</string>
+    <string name="tv_city">City</string>
+    <string name="tv_regionState">Region/State</string>
+    <string name="tv_contact">Contact Number</string>
+    <string name="et_fName">First Name</string>
+    <string name="et_sName">Second Name</string>
+    <string name="et_address1">Address Line 1</string>
+    <string name="et_address2">Address Line 2</string>
+    <string name="et_city">City</string>
+    <string name="et_regionState">Region/State</string>
+    <string name="et_contact">Contact</string>
+    <string name="btn_addAddress">Add Delivery Details</string>
+
+
+    <string name="tv_details">John Doe \nABC Building,\n2/4 ABC Road,\nPoint Bridge,\nColombo. \n+94 777567890
+    </string>
+    <string name="btn_edit"></string>
+    <string name="btn_delete"></string>
+    <string name="btn_newAddress">Add Delivery Address</string>
+    <string name="tv_charges">Delivery Charges</string>
+    <string name="et_amount">Rs.</string>
+    <string name="btn_continue">Continue</string>
+    <string name="tv_confirmation">I confirm that the above data is correct</string>
+    <string name="tv_toolbar">Delivery Details</string>
+
+    <string name="tv_updateDetails">Update Delivery Details</string>
+    <string name="btn1_addAddress">Update</string>
+    <string name="tv1_fName">First Name</string>
+    <string name="tv1_sName">Second Name</string>
+    <string name="tv1_address1">Address Line 1</string>
+    <string name="tv2_address2">Address Line 2</string>
+    <string name="tv1_city">City</string>
+    <string name="tv1_regionState">Region/State</string>
+    <string name="tv1_contact">Contact Number</string>
+    <string name="btn_Update">Update</string>
+
+    <string name="tv_toolbar4">Delivery Status</string>
+    <string name="btn1_Order">Order ID : </string>
+    <string name="btn1_Order2">Order ID : </string>
+    <string name="btn1_Order3">Order ID : </string>
+    <string name="btn1_Order4">Order ID : </string>
+    <string name="btn1_Order5">Order ID : </string>
+    <string name="btn1_Order6">Order ID : </string>
+    <string name="btn_delivered">Delivered</string>
+    <string name="btn_notDelivered">Not Delivered</string>
+    <string name="img_search" />
+
+
+    <string name="tv5_details">John Doe \nABC Building,\n2/4 ABC Road,\nPoint Bridge,\nColombo. \n+94 777567890
+    </string>
+    <string name="tv1_charges">Delivery Charges</string>
+    <string name="et1_amount">Rs.</string>
+    <string name="btn1_continue">Continue</string>
+    <string name="tv_dAddress">Delivery Address</string>
+    <string name="btn_intransmit">In transmit</string>
+    <string name="btn5_delivered">Delivered</string>
+    <string name="img_map">MAP</string>
+    <string name="img_delivery" />
+    <string name="tvfname">First Name</string>
+    <string name="tvsname">Second Name</string>
+    <string name="tvaddline1">Address Line 1</string>
+    <string name="tvaddline2">Address Line 2</string>
+    <string name="tvcity">City</string>
+    <string name="tvregion">Region/State</string>
+    <string name="tvmobile">Contact</string>
+
+</resources>

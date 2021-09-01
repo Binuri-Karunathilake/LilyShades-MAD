@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    android:backgroundTintMode="src_over"
+    tools:context=".AddDelivery">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/clr_toolbar"
+        android:isScrollContainer="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/tv_toolbar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif"
+        android:text="@string/tv_toolbar4"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar4"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar4"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_delivered"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_delivered"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:iconTint="#E2776767"
+        app:layout_constraintEnd_toStartOf="@+id/btn_notDelivered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_notDelivered"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:text="@string/btn_notDelivered"
+        android:textColor="#000000"
+        app:backgroundTint="#31635D5D"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_delivered"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_delivered" />
+
+    <ImageView
+        android:id="@+id/img_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:contentDescription="@string/img_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_toolbar4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="630dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_delivered">
+
+        <Button
+            android:id="@+id/btn1_order"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="@color/teal_700"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1_order2"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="#FFC107"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1_order3"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="@color/teal_700"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1_order4"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="#FFC107"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1_order5"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="@color/teal_700"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn1_order6"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/btn1_Order"
+            android:textSize="16sp"
+            app:backgroundTint="#FFC107"
+            app:icon="@drawable/next"
+            app:iconGravity="end|textStart"
+            app:iconPadding="20dp"
+            app:iconSize="30dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

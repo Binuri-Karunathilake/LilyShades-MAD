@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/img_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+
+    android:backgroundTintMode="src_over"
+    android:contentDescription="@string/img_map"
+    tools:context=".AddDelivery">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/clr_toolbar"
+        android:clickable="true"
+        android:isScrollContainer="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/back" />
+
+    <TextView
+        android:id="@+id/tv_toolbar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif"
+        android:text="@string/tv_toolbar4"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_details2"
+        android:layout_width="313dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="40dp"
+        android:background="#1D474542"
+        android:fontFamily="sans-serif"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="15dp"
+        android:paddingTop="55dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:singleLine="false"
+        android:text="@string/tv5_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/btn_intransmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/btn_intransmit"
+        android:textColor="#000000"
+        app:backgroundTint="@color/design_default_color_secondary"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Delivered"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_details2" />
+
+    <Button
+        android:id="@+id/btn_Delivered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/btn_delivered"
+        android:textColor="#000000"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_intransmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_intransmit" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="228dp"
+        android:contentDescription="@string/img_map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+        app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:id="@+id/tv_dAddress"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/tv_dAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/tv_details2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_details2"
+        app:layout_constraintTop_toTopOf="@+id/tv_details2" />
+
+    <ImageView
+        android:id="@+id/img_delivery"
+        android:layout_width="95dp"
+        android:layout_height="79dp"
+        android:contentDescription="@string/img_delivery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Delivered"
+        app:srcCompat="@drawable/delivery" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
