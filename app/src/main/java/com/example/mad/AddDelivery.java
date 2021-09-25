@@ -2,6 +2,7 @@ package com.example.mad;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -47,9 +48,23 @@ public class AddDelivery extends AppCompatActivity {
             public void onClick(View view) {
                 //firestore
                 database = FirebaseDatabase.getInstance().getReference().child("Delivery");
-
+                openActivity2();
                 try {
-
+                    if (TextUtils.isEmpty(etFname.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter First Name", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etSname.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Second Name", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etAddl1.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Address Line 1", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etAddl2.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Address Line 1", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etCity.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter City", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etRegion.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Region", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(etContact.getText().toString().trim()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Contact", Toast.LENGTH_SHORT).show();
+                    else {
                         del.setfName(etFname.getText().toString().trim());
                         del.setsName(etSname.getText().toString().trim());
                         del.setAddLine1(etAddl1.getText().toString().trim());
@@ -62,8 +77,8 @@ public class AddDelivery extends AppCompatActivity {
 
                         Toast.makeText(getApplicationContext(), "Data saved successfully", Toast.LENGTH_SHORT).show();
                         clearControls();
-                        openActivity2();
 
+                    }
                 } catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Number format Exception", Toast.LENGTH_SHORT).show();
                 }
