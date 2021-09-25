@@ -33,7 +33,7 @@ public class ViewDelivery extends AppCompatActivity {
         setContentView(R.layout.view_delivery);
         getSupportActionBar().hide();
 
-        //link with xml
+        //initialize views with xml
         tvfname = findViewById(R.id.tv2fname);
         tvsname = findViewById(R.id.tv2sname);
         tvaddline1 = findViewById(R.id.tv2addline1);
