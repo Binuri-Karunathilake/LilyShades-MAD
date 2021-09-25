@@ -1,3 +1,7 @@
+
+# LilyShades-MAD1
+Online Cake and Flower Ordering Application
+=======
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -236,3 +240,4 @@ Project Link: [https://github.com/salukadev/Pharmac-OMS.git](https://github.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+
