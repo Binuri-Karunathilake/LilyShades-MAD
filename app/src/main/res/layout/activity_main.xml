@@ -10,6 +10,7 @@
     android:background="#F7FFFFFF"
     android:minWidth="19dp">
 
+    //android:minWidth="19dp"
 
     <ScrollView
         android:layout_width="wrap_content"
