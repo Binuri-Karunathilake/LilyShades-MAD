@@ -14,7 +14,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class AddDelivery extends AppCompatActivity {
-    //Initialize
     EditText etFname, etSname, etAddl1, etAddl2, etCity, etRegion, etContact;
     Button btn_addDelivery;
 
@@ -49,7 +48,7 @@ public class AddDelivery extends AppCompatActivity {
             public void onClick(View view) {
                 //firestore
                 database = FirebaseDatabase.getInstance().getReference().child("Delivery");
-                openActivity2();
+
                 try {
                     if (TextUtils.isEmpty(etFname.getText().toString().trim()))
                         Toast.makeText(getApplicationContext(), "Please Enter First Name", Toast.LENGTH_SHORT).show();
@@ -83,7 +82,7 @@ public class AddDelivery extends AppCompatActivity {
                 } catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Number format Exception", Toast.LENGTH_SHORT).show();
                 }
-
+                openActivity2();
 
 
             }

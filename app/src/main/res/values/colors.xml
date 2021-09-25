@@ -7,6 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="clr_toolbar">#FFC107</color>
     <color name="clr_textArea">#1D474542</color>
+=======
+>>>>>>> fc77630 (initial commit)
 </resources>
