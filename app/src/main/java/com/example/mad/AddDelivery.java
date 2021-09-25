@@ -14,7 +14,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class AddDelivery extends AppCompatActivity {
-    //Initialization
     EditText etFname, etSname, etAddl1, etAddl2, etCity, etRegion, etContact;
     Button btn_addDelivery;
 
