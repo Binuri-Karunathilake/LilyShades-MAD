@@ -112,17 +112,17 @@ This section shows the list of major technologies that we have used to  built ou
 
 
 
-<p align="center"><a href="https://www.java.com/en/" target="_blank"><img src="readmeImages/java.png" width="150"></a></p>
+<p align="center"><a href="https://www.java.com/en/" target="_blank"><img src="README Images/java.png" width="150"></a></p>
 
 
 
 * Development Environment : [Android Studio 4.2.2](https://developer.android.com/studio?gclsrc=ds&gclsrc=ds&gclid=CMfRvbCWqPACFZSzjgodgn8HSg)
 
-<p align="center"><a href="https://developer.android.com/studio?gclsrc=ds&gclsrc=ds&gclid=CMfRvbCWqPACFZSzjgodgn8HSg" target="_blank"><img src="readmeImages/androidStudio.png" width="100"></a></p>
+<p align="center"><a href="https://developer.android.com/studio?gclsrc=ds&gclsrc=ds&gclid=CMfRvbCWqPACFZSzjgodgn8HSg" target="_blank"><img src="README Images/androidStudio.png" width="100"></a></p>
 
 * Database : [Firebase](https://firebase.google.com/?gclsrc=ds&gclsrc=ds&gclid=COjAs9qXqPACFZKtjgodGfUPrg)
 
-<p align="center"><a href="https://firebase.google.com/?gclsrc=ds&gclsrc=ds&gclid=COjAs9qXqPACFZKtjgodGfUPrg" target="_blank"><img src="readmeImages/firebase.png" width="200"></a></p>
+<p align="center"><a href="https://firebase.google.com/?gclsrc=ds&gclsrc=ds&gclid=COjAs9qXqPACFZKtjgodGfUPrg" target="_blank"><img src="README Images/firebase.png" width="200"></a></p>
 
 
 
