@@ -210,7 +210,7 @@ Project Link: [https://github.com/salukadev/Pharmac-OMS.git](https://github.com/
 
 
 ## Contributors
-* IT20023399 - Binuri Karunathilake - [Binuri-Karunathilake](https://github.com/Binuri-Karunathilake)
+* IT20023300 - Binuri Karunathilake - [Binuri-Karunathilake](https://github.com/Binuri-Karunathilake)
 * IT20025830 - Sanuji Nanayakkara - [Sanuji-Nanayakkara ](https://github.com/Sanuji-Nanayakkara)
 * IT20017606 - Rashani Wijerathna  - [RashaniTharushika](https://github.com/RashaniTharushika)
 * IT19091112 - Nuwanga Wijamuni- [Nuwanga-Wijamuni ](https://github.com/Nuwanga-Wijamuni)
